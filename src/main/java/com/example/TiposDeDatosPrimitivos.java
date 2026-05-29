@@ -2,22 +2,26 @@ package com.example;
 
 public class TiposDeDatosPrimitivos {
     public static void demostrarEnteros() {
-        // TODO
+        byte numeroMaximo = 127;
+        short numeroMaximo2 = 32767;
+        int numeroMaximo3 = 200000;
+        long numeroMaximo4 = 900000000;
     }
 
     public static void demostrarFlotantes() {
-        // TODO
-    }
+        float precio_Cafe = 2.800F;
+        double precio_Cafe2 = 3.000;
 
+    }
     public static void demostrarCaracteres() {
-        // TODO
+        String inicialNombre = "M";
     }
 
     public static void demostrarBooleanos() {
-        // TODO
+         boolean luz = true;
     }
 
     public static void demostrarValoresPorDefecto() {
-        // TODO
+        int numero;
     }
 }

@@ -2,14 +2,20 @@ package com.example;
 
 public class ConversionDeTipos {
     public static void demostrarCastingImplicitito() {
-        // TODO
+        int datos = 55;
+        double conversion = datos;
+        System.out.println(conversion);
     }
 
     public static void demostrarCastingExplicito() {
-        // TODO
+        double numeros = 2.8890;
+        int conversion2 = (int) numeros;
+        System.out.println(conversion2);
     }
 
     public static void demostrarProblemasDePrecision() {
-        // TODO
+        long numeroGrande = 70000;
+        short conversion3 = (short)numeroGrande;
+        System.out.println(conversion3);
     }
 }
