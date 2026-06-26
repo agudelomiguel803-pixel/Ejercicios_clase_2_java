@@ -2,11 +2,15 @@ package com.example;
 
 public class MetodosEstaticosSimples {
     public static void ejemploDeclaracionLlamada() {
-        // TODO
+        System.out.println("==============================");
+        System.out.println("   BIENVENIDO A LA TAREA DE JAVA!      ");
+        System.out.println("==============================");
     }
 
+
     public static void ejemploPasoParametros(String nombre) {
-        // TODO
+        String saludo = "Estimado/a " + nombre + ", es un placer saludarle.";
+        System.out.println(saludo);
     }
 
     public static int ejemploRetornoValores() {
@@ -15,7 +19,9 @@ public class MetodosEstaticosSimples {
     }
 
     public static void ejemploSobrecarga() {
-        // TODO
+        double lado = 5;
+        double area = lado * lado;
+        System.out.println("Área del cuadrado: " + area);
     }
 
     public static void ejemploSobrecarga(int n) {
